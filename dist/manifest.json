@@ -1,0 +1,55 @@
+{
+  "package": "rag-authz-auditor",
+  "channel": "experimental",
+  "runtime_candidate": 10,
+  "archive": "rag-authz-auditor-v0.1.0-alpha.1.zip",
+  "archive_bytes": 11075,
+  "archive_sha256": "7a067f510a6bf35ee8d0091b4512533799d0ae87f4296498b5068b0cb9d41374",
+  "files": [
+    {
+      "path": "rag-authz-auditor/SKILL.md",
+      "bytes": 17613,
+      "sha256": "702ae27c4950b7d3a88b2f7ac68714bebce09afb7b10b182afcb417a3b3e3b22",
+      "role": "runtime"
+    },
+    {
+      "path": "rag-authz-auditor/references/repair-workflow.md",
+      "bytes": 4261,
+      "sha256": "e10312372c4af8a7491102f86beb251b2774a709666c6b55ec879fef911ed7c0",
+      "role": "runtime"
+    },
+    {
+      "path": "rag-authz-auditor/LICENSE",
+      "bytes": 1066,
+      "sha256": "6101fbdb23731ea3a82eae9a5a25d4ecb008e89a4f78fe7c1b41dc8744772ef3",
+      "role": "legal-notice"
+    }
+  ],
+  "runtime_file_count": 2,
+  "extra_runtime_files": false,
+  "behavioral_acceptance_complete": false,
+  "claude_code_verified": false,
+  "license_selected": true,
+  "published": false,
+  "packaging_checks": "passed_independent_licensed_package_review",
+  "product_validation": "../docs/VERIFICATION.md",
+  "offline_compatibility_review": {
+    "complete_rounds": 3,
+    "installation_layout_observations": 8,
+    "checker_negative_controls": 12,
+    "native_model_runs_in_this_review": 0,
+    "scope": "two-runtime-files-and-pre-license-package"
+  },
+  "package_file_count": 3,
+  "license": "MIT",
+  "release_tag": "v0.1.0-alpha.1",
+  "publication_state_scope": "build-time pre-publication snapshot",
+  "license_package_review": {
+    "status": "passed",
+    "complete_rounds": 3,
+    "recorded_checks": 30,
+    "checker_negative_controls": 21,
+    "installation_layout_observations": 8,
+    "native_model_runs": 0
+  }
+}
